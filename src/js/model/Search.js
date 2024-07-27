@@ -1,4 +1,3 @@
-
 require('@babel/polyfill')
 import axios from 'axios';
 
@@ -12,7 +11,7 @@ export default class Search {
             this.result = result.data.recipes;
             return this.result;
         } catch (error) {
-            alert('asuudal garlaa', error);
+            console.log('asuudal garlaa', error);
         }
     }
 }
