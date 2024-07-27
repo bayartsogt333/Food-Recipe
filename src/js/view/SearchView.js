@@ -27,7 +27,7 @@ export const renderRecipes = recipes => {
 }
 export const clearSearchQuery = () => {
     elements.searchInput.value = '';
-}
+}//labeliig oorclow.
 export const clearSearchResult = () => {
     elements.searchResultList.innerHTML = '';
 } //buyu dotrn bga bvh ul itemvvdg daraad hoosn ym biccine.

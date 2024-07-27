@@ -1,6 +1,6 @@
 import Search from "./model/Search";
 import { elements, renderLoader, clearLoader } from "./view/base";
-import * as searchView from "./view/searchView";
+import * as searchView from "./view/SearchView";
 
 /**
  * Web app төлөв
