@@ -1,6 +1,7 @@
 import Search from "./model/Search";
 import { elements, renderLoader, clearLoader } from "./view/base";
 import * as searchView from "./view/SearchView";
+import Recipe from "./model/Recipe"
 
 /**
  * Web app төлөв
@@ -50,3 +51,8 @@ elements.pageButtons.addEventListener("click", e => {
         }
     }
 })
+
+
+
+const r = new Recipe(47746);
+r.getRecipe();
