@@ -19,4 +19,13 @@ export default class Recipe {
             console.log('asuudal garlaa', error);
         }
     }
+    //Joriin daguu hool hiihd her hugatsaa zartsuulah 
+    calcTime() {
+        //nairlaga bolgn deer oiroltsoogor 5min zartsuulna gej vzyee.
+        this.time = this.ingredients.length * 5;
+    }
+    //heden hvnii orts ym.
+    calcHuniiToo() {
+        this.huniiToo = 4;
+    }
 }

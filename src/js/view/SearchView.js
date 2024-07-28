@@ -2,7 +2,7 @@ import { elements } from "./base"
 
 //private function
 const renderRecipe = recipe => {
-    console.log(recipe);
+    //huudas dotor shiljilt hiihd href buyu hashtagiig ashigladag. tgd tuhain neg jor deer daragdah bolgnd hash oorclogdloo gj event vvsjidg.
     const markup = `
         <li>
             <a class="results__link" href="#${recipe.recipe_id}">
@@ -56,6 +56,7 @@ const renderButtons = (currentPage, totalPages) => {
 }
 
 export const getInput = () => elements.searchInput.value;
+
 export const renderRecipes = (recipes, currentPage = 1, resPerPage = 10) => {
     // Hailtiin vr dvng huudaslaj vzvvleh.
     const start = (currentPage - 1) * resPerPage; //huudas deer pizza edr maani hedes ehld haana duushi gl ted nariinl haruulna gsn vg.
